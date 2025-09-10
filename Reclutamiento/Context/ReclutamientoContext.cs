@@ -14,6 +14,7 @@ public class ReclutamientoContext : DbContext
         
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Vacante> Vacantes { get; set; }
+        public DbSet<Solicitud> Solicitudes { get; set; }
         
 
 }
