@@ -1,0 +1,8 @@
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.csproj.AssemblyReference.cache
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.AssemblyInfoInputs.cache
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.AssemblyInfo.cs
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.csproj.CoreCompileInputs.cache
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anzor\OneDrive\Documents\ELA2025NETAPI\Reclutamiento\obj\Debug\net8.0\Reclutamiento.sourcelink.json

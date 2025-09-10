@@ -1,6 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Reclutamiento.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var conString = builder.Configuration.GetConnectionString("Conn");
+builder.Services.AddDbContext<ReclutamientoContext>(options => options.UseMySql(conString, ServerVersion.AutoDetect(conString)));
+builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
