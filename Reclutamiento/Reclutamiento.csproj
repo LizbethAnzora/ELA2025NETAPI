@@ -15,6 +15,8 @@
 
   <ItemGroup>
     <Folder Include="Controladores\" />
+    <Folder Include="Implementaciones\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>
