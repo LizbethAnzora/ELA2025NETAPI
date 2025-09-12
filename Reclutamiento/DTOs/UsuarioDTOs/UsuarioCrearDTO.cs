@@ -5,7 +5,11 @@ namespace Reclutamiento.DTOs.UsuarioDTOs;
 
 public class UsuarioCrearDTO
 {
-     [Required]
+
+        [Required]
+        public string? NombreCompleto { get; set; }
+
+        [Required]
         [EmailAddress]
         public string? CorreoElectronico { get; set; }
 

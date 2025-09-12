@@ -18,6 +18,8 @@ public class Usuario
     // Corresponde a 'id_github'. Usamos 'long' para un tipo BIGINT.
     public long? IdGithub { get; set; }
 
+    public string? NombreCompleto { get; set; }
+
     // Corresponde a 'correo_electronico'.
     public string? CorreoElectronico { get; set; }
 
