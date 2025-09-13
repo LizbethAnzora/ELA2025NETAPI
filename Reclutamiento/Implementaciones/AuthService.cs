@@ -35,7 +35,9 @@ public class AuthService : IAuthService
             user = new Usuario
             {
                 IdGithub = githubIdParsed,
-                Rol = Rol.Solicitante
+                Rol = Rol.Solicitante,
+                // Se establece un valor por defecto para el nombre
+                NombreCompleto = "Usuario GitHub"
             };
             await _usuarioRepository.AddAsync(user);
             await _usuarioRepository.SaveAsync();
@@ -44,5 +46,6 @@ public class AuthService : IAuthService
         return "FAKE_GITHUB_JWT_TOKEN";
     }
 }
+
 
 
