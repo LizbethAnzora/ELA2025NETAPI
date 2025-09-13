@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reclutamiento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050cfacebfe5c4ed5f068d1a918af3cb156eb3e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bd5f0911b9c0f0b46b914e8f39062e14740d1b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reclutamiento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reclutamiento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

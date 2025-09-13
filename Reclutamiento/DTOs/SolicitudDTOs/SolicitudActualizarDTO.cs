@@ -9,5 +9,5 @@ public class SolicitudActualizarDTO
         public string? CorreoElectronico { get; set; }
         public string? NumeroTelefono { get; set; }
         public string? Foto { get; set; }
-        public JsonDocument? CamposPersonalizados { get; set; }
+        public string? CamposPersonalizados { get; set; }
 }

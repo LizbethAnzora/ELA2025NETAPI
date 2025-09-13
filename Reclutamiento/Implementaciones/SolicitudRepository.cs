@@ -1,4 +1,5 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 using Reclutamiento.Context;
 using Reclutamiento.Interfaces;
 
@@ -18,5 +19,6 @@ public class SolicitudRepository : Repository<Solicitud>, ISolicitudRepository
         return await _context.Solicitudes.Where(s => s.IdUsuario == userId).ToListAsync();
     }
 }
+
 
 

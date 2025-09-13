@@ -21,5 +21,5 @@ public class SolicitudCrearDTO
         
         public string? Foto { get; set; }
         
-        public JsonDocument? CamposPersonalizados { get; set; }
+        public string? CamposPersonalizados { get; set; }
 }
