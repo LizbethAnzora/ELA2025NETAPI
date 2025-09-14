@@ -6,10 +6,14 @@ namespace Reclutamiento.DTOs;
 public class AdminLoginDTO
 {
     [Required]
-        [EmailAddress]
-        public string? CorreoElectronico { get; set; }
+    public string? NombreCompleto { get; set; }
+
+    [Required]
+    [EmailAddress]
+    public string? CorreoElectronico { get; set; }
+
+    [Required]
+    public string? Contrasena { get; set; }
         
-        [Required]
-        public string? Contrasena { get; set; }
 
 }

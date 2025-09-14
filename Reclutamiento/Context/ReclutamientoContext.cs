@@ -18,6 +18,14 @@ public class ReclutamientoContext : DbContext
     public DbSet<RespuestaSolicitud> RespuestasSolicitudes { get; set; }
 
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Usuario>()
+            .Property(u => u.Rol)
+            .HasConversion<string>();
+
+        modelBuilder.Entity<Solicitud>()
+            .Property(s => s.Estado)
+            .HasConversion<string>();
+    }
 }
-
-
