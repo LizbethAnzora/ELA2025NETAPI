@@ -71,5 +71,3 @@ public class VacanteService : IVacanteService
         await _vacanteRepository.SaveAsync();
     }
 }
-
-

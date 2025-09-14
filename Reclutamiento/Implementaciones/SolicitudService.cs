@@ -82,5 +82,3 @@ public class SolicitudService : ISolicitudService
         await _solicitudRepository.SaveAsync();
     }
 }
-
-

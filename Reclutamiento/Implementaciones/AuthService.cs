@@ -46,6 +46,3 @@ public class AuthService : IAuthService
         return "FAKE_GITHUB_JWT_TOKEN";
     }
 }
-
-
-
