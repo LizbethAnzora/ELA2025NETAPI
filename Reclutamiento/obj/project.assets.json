@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "BCrypt.Net-Next/4.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "BouncyCastle.Cryptography/2.2.1": {
         "type": "package",
         "compile": {
@@ -1071,6 +1084,37 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
     "BouncyCastle.Cryptography/2.2.1": {
       "sha512": "A6Zr52zVqJKt18ZBsTnX0qhG0kwIQftVAjLmszmkiR/trSp8H+xj1gUOzk7XHwaKgyREMSV1v9XaKrBUeIOdvQ==",
       "type": "package",
@@ -2987,6 +3031,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BCrypt.Net-Next >= 4.0.3",
       "EFCore.NamingConventions >= 8.0.0",
       "MailKit >= 4.1.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.19",
@@ -2998,19 +3043,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anzor\\.nuget\\packages\\": {}
+    "C:\\Users\\josue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+      "projectUniqueName": "C:\\Users\\josue\\OneDrive\\Desktop\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
       "projectName": "Reclutamiento",
-      "projectPath": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
-      "packagesPath": "C:\\Users\\anzor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\obj\\",
+      "projectPath": "C:\\Users\\josue\\OneDrive\\Desktop\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+      "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josue\\OneDrive\\Desktop\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anzor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3039,6 +3084,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "EFCore.NamingConventions": {
             "target": "Package",
             "version": "[8.0.0, )"

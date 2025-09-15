@@ -2,6 +2,7 @@ using System;
 using Reclutamiento.DTOs;
 using Reclutamiento.Entidades;
 using Reclutamiento.Interfaces;
+using BCrypt.Net;
 
 namespace Reclutamiento.Implementaciones;
 
@@ -15,15 +16,15 @@ public class AuthService : IAuthService
     }
 
     public async Task<string> AdminLogin(AdminLoginDTO dto)
+{
+    var user = await _usuarioRepository.GetByEmailAsync(dto.CorreoElectronico);
+    if (user == null || user.Rol != Rol.Admin || !BCrypt.Net.BCrypt.Verify(dto.Contrasena, user.HashContraseña))
     {
-        var user = await _usuarioRepository.GetByEmailAsync(dto.CorreoElectronico);
-        if (user == null || user.Rol != Rol.Admin || user.HashContraseña != dto.Contrasena)
-        {
-            return null;
-        }
-
-        return "FAKE_JWT_TOKEN";
+        return null;
     }
+
+    return "FAKE_JWT_TOKEN";
+}
 
     public async Task<string> GithubLogin(string githubId)
     {

@@ -2,6 +2,7 @@ using System;
 using Reclutamiento.DTOs.UsuarioDTOs;
 using Reclutamiento.Entidades;
 using Reclutamiento.Interfaces;
+using BCrypt.Net;
 
 namespace Reclutamiento.Implementaciones;
 
@@ -33,7 +34,7 @@ public class UsuarioService : IUsuarioService
         var user = new Usuario
         {
             CorreoElectronico = dto.CorreoElectronico,
-            HashContraseña = dto.Contrasena,
+            HashContraseña = BCrypt.Net.BCrypt.HashPassword(dto.Contrasena), // Cambia aquí
             // Se utiliza el nombre completo del DTO
             NombreCompleto = dto.NombreCompleto,
             Rol = Rol.Admin,
@@ -48,8 +49,6 @@ public class UsuarioService : IUsuarioService
     {
         var user = await _usuarioRepository.GetByIdAsync(id);
         if (user == null) throw new Exception("Admin no encontrado.");
-        user.CorreoElectronico = dto.CorreoElectronico ?? user.CorreoElectronico;
-        user.HashContraseña = dto.Contrasena ?? user.HashContraseña;
         // Se actualiza el campo si se proporciona en el DTO
         user.NombreCompleto = dto.NombreCompleto ?? user.NombreCompleto;
         _usuarioRepository.Update(user);
