@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esmer\\OneDrive\\Escritorio\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {}
+    "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esmer\\OneDrive\\Escritorio\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
+    "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esmer\\OneDrive\\Escritorio\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+        "projectUniqueName": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
         "projectName": "Reclutamiento",
-        "projectPath": "C:\\Users\\esmer\\OneDrive\\Escritorio\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
-        "packagesPath": "C:\\Users\\esmer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esmer\\OneDrive\\Escritorio\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\obj\\",
+        "projectPath": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+        "packagesPath": "C:\\Users\\anzor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anzor\\OneDrive\\Documents\\ELA2025NETAPI\\Reclutamiento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\esmer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anzor\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.19, )"
@@ -60,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Pomelo.EntityFrameworkCore.Mysql": {
               "target": "Package",
