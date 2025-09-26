@@ -9,9 +9,9 @@ public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
 {
     public UsuarioRepository(ReclutamientoContext context) : base(context) { }
 
-        public async Task<Usuario> GetByEmailAsync(string email)
+        public async Task<Usuario> GetByEmailAsync(string email, string nombre)
         {
-            return await _context.Usuarios.FirstOrDefaultAsync(u => u.CorreoElectronico == email) ?? throw new KeyNotFoundException($"Usuario with email {email} not found.");
+            return await _context.Usuarios.FirstOrDefaultAsync(u => u.CorreoElectronico == email & u.NombreCompleto== nombre) ?? throw new KeyNotFoundException($"Usuario with email {email} not found.");
         }
 
         public async Task<Usuario> GetByGithubIdAsync(long githubId)

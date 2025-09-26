@@ -20,12 +20,12 @@ namespace Reclutamiento.Controladores
         [HttpPost("login/admin")]
         public async Task<IActionResult> AdminLogin([FromBody] AdminLoginDTO dto)
         {
-            var token = await _authService.AdminLogin(dto);
-            if (token == null)
+            var login = await _authService.AdminLogin(dto);
+            if (login == null)
             {
                 return Unauthorized("Credenciales inválidas.");
             }
-            return Ok(new TokenDTO { Token = token });
+            return Ok(login);
         }
 
         [HttpPost("login/github")]

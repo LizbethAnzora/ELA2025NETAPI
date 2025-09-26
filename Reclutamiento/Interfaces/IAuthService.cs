@@ -1,11 +1,12 @@
 using System;
 using Reclutamiento.DTOs;
+using ReclutamientoFrontend.WebApp.Models.Dtos;
 
 namespace Reclutamiento.Interfaces;
 
 public interface IAuthService
 {
-    Task<string> AdminLogin(AdminLoginDTO dto);
+    Task<LoginResponseDto> AdminLogin(AdminLoginDTO dto);
     Task<string> GithubLogin(string githubId);
     
 
