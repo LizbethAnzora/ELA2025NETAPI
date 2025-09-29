@@ -70,5 +70,7 @@ namespace Reclutamiento.Controladores
             var solicitudes = await _solicitudService.GetSolicitudesByVacanteAsync(vacanteId);
             return Ok(solicitudes);
         }
+
+        
     }
 }
