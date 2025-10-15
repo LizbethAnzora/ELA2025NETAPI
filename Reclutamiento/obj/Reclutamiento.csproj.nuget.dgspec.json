@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {}
+    "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj": {}
   },
   "projects": {
-    "D:\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
+    "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+        "projectUniqueName": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
         "projectName": "Reclutamiento",
-        "projectPath": "D:\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ELA2025NETAPI\\ELA2025NETAPI\\Reclutamiento\\obj\\",
+        "projectPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
+        "packagesPath": "C:\\Users\\ilein\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilein\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
