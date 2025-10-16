@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento\\reclutamiento.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|solutionrelative:reclutamiento\\reclutamiento.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|solutionrelative:reclutamiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento\\reclutamiento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|solutionrelative:reclutamiento\\reclutamiento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|solutionrelative:reclutamiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2D7BB47-ACA5-4577-95E3-B8C584C1719D}|Reclutamiento\\Reclutamiento.csproj|solutionrelative:reclutamiento\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\usuariorepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\usuariorepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reclutamiento.http",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.http",
-              "RelativeDocumentMoniker": "Reclutamiento\\Reclutamiento.http",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.http",
-              "RelativeToolTip": "Reclutamiento\\Reclutamiento.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-14T21:25:59.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Reclutamiento\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Reclutamiento\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-14T21:23:17.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\appsettings.json",
-              "RelativeDocumentMoniker": "Reclutamiento\\appsettings.json",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\appsettings.json",
-              "RelativeToolTip": "Reclutamiento\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-14T21:18:27.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reclutamiento.csproj",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
-              "RelativeDocumentMoniker": "Reclutamiento\\Reclutamiento.csproj",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
-              "RelativeToolTip": "Reclutamiento\\Reclutamiento.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-26T22:30:54.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Program.cs",
-              "RelativeDocumentMoniker": "Reclutamiento\\Program.cs",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Program.cs",
-              "RelativeToolTip": "Reclutamiento\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA+AAAAAAAAAA==",
+              "Title": "UsuarioRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T22:31:29.982Z"
+              "WhenOpened": "2025-10-16T19:49:07.805Z",
+              "EditorCaption": ""
             }
           ]
         }
