@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\solicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\solicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SolicitudRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:30:13.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VacanteRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T21:50:35.247Z",
+              "EditorCaption": ""
             }
           ]
         }
