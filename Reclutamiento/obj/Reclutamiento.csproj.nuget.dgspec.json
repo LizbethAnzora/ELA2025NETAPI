@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {}
+    "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento\\Reclutamiento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
+    "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento\\Reclutamiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+        "projectUniqueName": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento\\Reclutamiento.csproj",
         "projectName": "Reclutamiento",
-        "projectPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
-        "packagesPath": "C:\\Users\\esmer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\obj\\",
+        "projectPath": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento\\Reclutamiento.csproj",
+        "packagesPath": "C:\\Users\\Eneida Anzora\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\esmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eneida Anzora\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
