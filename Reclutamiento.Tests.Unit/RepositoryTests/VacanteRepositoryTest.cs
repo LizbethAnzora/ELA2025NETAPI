@@ -169,4 +169,86 @@ public class VacanteRepositoryTest
         Assert.NotNull(vacanteEditada);
     }
 
+    /// CP-HU07-1: Desactivar vacante (Admin).
+    /// Verifica que el estado 'EstaActiva' se pueda cambiar a 'false' correctamente.
+    [Fact]
+    public async Task Update_DesactivarVacante_DebeEstablecerEstaActivaAFalso()
+    {
+        // Arrange
+        using var context = GetDbContext("TestDesactivarVacante_" + Guid.NewGuid());
+        var repository = new VacanteRepository(context);
+
+        // 1. Crear una vacante inicialmente ACTIVA
+        var vacanteActiva = new Vacante
+        {
+            Titulo = "Puesto Temporal Activo",
+            Descripcion = "Descripción",
+            Ubicacion = "Local",
+            EstaActiva = true, // Inicia ACTIVA
+            CreadaPor = 100,
+            FechaCreacion = DateTime.Now,
+            FechaActualizacion = DateTime.Now
+        };
+        await repository.AddAsync(vacanteActiva);
+        await repository.SaveAsync();
+
+        // Obtener la entidad para modificar su estado
+        var vacanteAEditar = await context.Vacantes.FindAsync(vacanteActiva.Id);
+
+        // ACT: Cambiar el estado a inactivo
+        vacanteAEditar!.EstaActiva = false;
+
+        repository.Update(vacanteAEditar);
+        await repository.SaveAsync();
+
+        // ASSERT
+        // Recuperar y verificar que el estado ha cambiado a false
+        context.Entry(vacanteAEditar).State = EntityState.Detached;
+        var vacanteDesactivada = await context.Vacantes.FindAsync(vacanteActiva.Id);
+
+        Assert.NotNull(vacanteDesactivada);
+        Assert.False(vacanteDesactivada.EstaActiva, "La vacante no se desactivó correctamente.");
+    }
+
+    /// CP-HU07-2: Reactivar vacante (Admin).
+    /// Verifica que el estado 'EstaActiva' se pueda cambiar a 'true' correctamente.
+    [Fact]
+    public async Task Update_ReactivarVacante_DebeEstablecerEstaActivaAVerdadero()
+    {
+        // Arrange
+        using var context = GetDbContext("TestReactivarVacante_" + Guid.NewGuid());
+        var repository = new VacanteRepository(context);
+
+        // 1. Crear una vacante inicialmente INACTIVA
+        var vacanteInactiva = new Vacante
+        {
+            Titulo = "Puesto Inactivo para Reactivación",
+            Descripcion = "Descripción",
+            Ubicacion = "Local",
+            EstaActiva = false, // Inicia INACTIVA
+            CreadaPor = 100,
+            FechaCreacion = DateTime.Now,
+            FechaActualizacion = DateTime.Now
+        };
+        await repository.AddAsync(vacanteInactiva);
+        await repository.SaveAsync();
+
+        // Obtener la entidad para modificar su estado
+        var vacanteAEditar = await context.Vacantes.FindAsync(vacanteInactiva.Id);
+
+        // ACT: Cambiar el estado a activo
+        vacanteAEditar!.EstaActiva = true;
+
+        repository.Update(vacanteAEditar);
+        await repository.SaveAsync();
+
+        // ASSERT
+        // Recuperar y verificar que el estado ha cambiado a true
+        context.Entry(vacanteAEditar).State = EntityState.Detached;
+        var vacanteReactivada = await context.Vacantes.FindAsync(vacanteInactiva.Id);
+
+        Assert.NotNull(vacanteReactivada);
+        Assert.True(vacanteReactivada.EstaActiva, "La vacante no se reactivó correctamente.");
+    }
+
 }
