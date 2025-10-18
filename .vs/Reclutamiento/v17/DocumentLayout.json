@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\esmer\\source\\repos\\ELA2025NETAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\solicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\esmer\\source\\repos\\ela2025netapi\\reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\esmer\\source\\repos\\ela2025netapi\\reclutamiento.tests.unit\\repositorytests\\solicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\solicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\ilein\\onedrive\\desktop\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\vacanterepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\esmer\\source\\repos\\ela2025netapi\\reclutamiento.tests.unit\\reclutamiento.tests.unit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\reclutamiento.tests.unit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SolicitudRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
-              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
-              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T22:30:13.352Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Reclutamiento.Tests.Unit.csproj",
+              "DocumentMoniker": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+              "ToolTip": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-18T04:26:32.846Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SolicitudRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\esmer\\source\\repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\esmer\\source\\repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\SolicitudRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:30:13.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "VacanteRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\esmer\\source\\repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
               "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\esmer\\source\\repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
               "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\VacanteRepositoryTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA2wFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T21:50:35.247Z",
               "EditorCaption": ""

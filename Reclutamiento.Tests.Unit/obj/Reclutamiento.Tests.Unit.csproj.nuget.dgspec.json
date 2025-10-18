@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj": {}
+    "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj": {
+    "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+        "projectUniqueName": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
         "projectName": "Reclutamiento.Tests.Unit",
-        "projectPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
-        "packagesPath": "C:\\Users\\ilein\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento.Tests.Unit\\obj\\",
+        "projectPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj",
+        "packagesPath": "C:\\Users\\esmer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento.Tests.Unit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ilein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\esmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj": {
-                "projectPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj"
+              "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
+                "projectPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj"
               }
             }
           }
@@ -91,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj": {
+    "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
+        "projectUniqueName": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
         "projectName": "Reclutamiento",
-        "projectPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\Reclutamiento.csproj",
-        "packagesPath": "C:\\Users\\ilein\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilein\\OneDrive\\Desktop\\ReclutamientoBackend\\Reclutamiento\\obj\\",
+        "projectPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\Reclutamiento.csproj",
+        "packagesPath": "C:\\Users\\esmer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esmer\\Source\\Repos\\ELA2025NETAPI\\Reclutamiento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ilein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\esmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -211,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
