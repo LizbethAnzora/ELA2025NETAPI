@@ -18,18 +18,11 @@ public class RespuestaSolicitudRepositoryTest
         var context = new ReclutamientoContext(options);
         context.Database.EnsureCreated();
 
-        // --------------------------------------------------------------------------------
-        // PASO 1: LIMPIEZA DE DATOS (CRUCIAL)
-        // Usamos los nombres exactos de los DbSet en ReclutamientoContext: Solicitudes y RespuestasSolicitudes.
-        // --------------------------------------------------------------------------------
         context.Solicitudes.RemoveRange(context.Solicitudes.ToList());
         context.RespuestasSolicitudes.RemoveRange(context.RespuestasSolicitudes.ToList());
         context.SaveChanges();
 
-        // --------------------------------------------------------------------------------
-        // PASO 2: INSERCIÓN DE DATOS BASE
-        // Necesitamos una Solicitud existente (ID 1) para asociarle una respuesta.
-        // --------------------------------------------------------------------------------
+       
         if (!context.Solicitudes.Any())
         {
             context.Solicitudes.Add(new Solicitud
@@ -46,10 +39,7 @@ public class RespuestaSolicitudRepositoryTest
         return context;
     }
 
-    // --------------------------------------------------------------------------------
-    // PRUEBAS DE LA HISTORIA DE USUARIO 9 (Enviar Respuestas a Solicitudes)
-    // --------------------------------------------------------------------------------
-
+  
     /// CP-HU09-1: Crear respuesta para solicitud (positivo).
     /// Verifica que una respuesta válida se persista usando AddAsync y SaveAsync.
     [Fact]
@@ -72,11 +62,10 @@ public class RespuestaSolicitudRepositoryTest
 
         // ACT
         await repository.AddAsync(nuevaRespuesta);
-        // Llama al método SaveAsync del repositorio genérico, que llama a SaveChangesAsync
+        
         await repository.SaveAsync();
 
         // ASSERT
-        // Consultar directamente el DbSet para verificar la persistencia
         var respuestaGuardada = await context.RespuestasSolicitudes
                                             .FirstOrDefaultAsync(r => r.ContenidoMensaje == mensajeEsperado);
 
@@ -99,7 +88,6 @@ public class RespuestaSolicitudRepositoryTest
         {
             IdSolicitud = 1,
             EnviadaPor = 10,
-            // Deja el contenido como una cadena vacía, lo cual debería fallar si es un campo requerido.
             ContenidoMensaje = string.Empty,
             FechaEnvio = DateTime.Now
         };
@@ -108,10 +96,6 @@ public class RespuestaSolicitudRepositoryTest
         await repository.AddAsync(respuestaInvalida);
 
         // ASSERT
-        // Esperamos una excepción al llamar a SaveAsync() debido a la restricción de campo requerido (NOT NULL).
-        
-
-        // Verificar que no se guardó nada en la base de datos
         var count = await context.RespuestasSolicitudes.CountAsync();
         Assert.Equal(0, count);
     }

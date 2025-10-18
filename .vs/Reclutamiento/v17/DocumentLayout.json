@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\eneida anzora\\documents\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\usuariorepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\usuariorepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|c:\\users\\eneida anzora\\documents\\reclutamientobackend\\reclutamiento.tests.unit\\repositorytests\\respuestasolicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D516956-FBFB-47F3-B25B-C1A2BCE1EAD2}|Reclutamiento.Tests.Unit\\Reclutamiento.Tests.Unit.csproj|solutionrelative:reclutamiento.tests.unit\\repositorytests\\respuestasolicitudrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,21 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\UsuarioRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T23:11:28.91Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RespuestaSolicitudRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento.Tests.Unit\\RepositoryTests\\RespuestaSolicitudRepositoryTest.cs",
               "RelativeDocumentMoniker": "Reclutamiento.Tests.Unit\\RepositoryTests\\RespuestaSolicitudRepositoryTest.cs",
               "ToolTip": "C:\\Users\\Eneida Anzora\\Documents\\RECLUTAMIENTOBACKEND\\Reclutamiento.Tests.Unit\\RepositoryTests\\RespuestaSolicitudRepositoryTest.cs",
               "RelativeToolTip": "Reclutamiento.Tests.Unit\\RepositoryTests\\RespuestaSolicitudRepositoryTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-18T22:41:12.094Z",
               "EditorCaption": ""
